@@ -9,19 +9,19 @@ FONT=("Arial", 20, "normal")
 
 score = 0
 score_turtle = turtle.Turtle()
+score_turtle.hideturtle()
 score_turtle.color("dark blue")
 score_turtle.penup()
 score_turtle.setposition(0,280)
 score_turtle.write(f"Score: {score}", move=False, align="center", font=FONT)
-score_turtle.hideturtle()
 
 timee = 20
 time_turtle = turtle.Turtle()
+time_turtle.hideturtle()
 time_turtle.color("black")
 time_turtle.penup()
 time_turtle.setposition(0,240)
 time_turtle.write(f"Time: {timee}", move=False, align="center", font=FONT)
-time_turtle.hideturtle()
 
 figure_turtle = turtle.Turtle()
 figure_turtle.shape("turtle")
