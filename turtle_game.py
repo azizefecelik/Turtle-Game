@@ -1,6 +1,5 @@
 import turtle
 import random
-import time
 
 wn_screen = turtle.Screen()
 wn_screen.bgcolor("light blue")
@@ -62,7 +61,6 @@ def countdown():
 
 def game_over():
     time_turtle.clear()
-    score_turtle.clear()
     figure_turtle.hideturtle()
     time_turtle.goto(0, 0)
     time_turtle.write("GAME OVER!", align="center", font=("Arial", 30, "bold"))
@@ -71,22 +69,6 @@ def game_over():
 figure_turtle.onclick(score_board)
 teleport()
 countdown()
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
